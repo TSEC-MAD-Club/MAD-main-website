@@ -1,0 +1,77 @@
+body,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --font-body-family: "Kumbh Sans";
+  --devs-gradient: linear-gradient(90deg, #04d9ff 4.34%, #2a75d1 74.33%);
+  --body-bg: #0f0f0f;
+  --black: #0f0f0f;
+  --white: #fcfcfc;
+  --grey: #a6a6a6;
+}
+section {
+  margin-top: 5%;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.button1 {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: #ffffff8b 0px 0px 0px 0.5px;
+}
+.button2 {
+}
+.button1:hover,
+.button2:hover {
+  transform: scale(1.1);
+  transform: 0.3s ease;
+}
+.page-width {
+  padding: 0 12%;
+}
+.grey {
+  color: var(--grey);
+}
+.white {
+  color: var(--white);
+}
+.black {
+  color: var(--black);
+}
+.devs-gradient {
+  background: var(--devs-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media screen and (max-width: 786px) {
+  .page-width {
+    padding: 0 5%;
+  }
+}

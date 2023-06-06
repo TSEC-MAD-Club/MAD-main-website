@@ -1,0 +1,45 @@
+.landing-hero-title > h1 {
+  font-weight: 800;
+  font-size: 5rem;
+}
+.landing-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+}
+.app-promo-title {
+  font-weight: 800;
+  font-size: 4rem;
+}
+.app-promo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+}
+.app-promo-buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  height: 70px;
+}
+@media screen and (max-width: 786px) {
+  .app-promo-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .app-promo-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .landing-hero-image {
+    display: none;
+  }
+  .landing-hero-title > h1 {
+    font-size: 3rem;
+  }
+  .app-promo-title {
+    font-size: 2rem;
+  }
+}
